@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
+:root{
+    --vinicius: #000000;
+}
+
+
 body{
-    background-color: black;
-    color: white;
+    background-color: var(--vinicius);
+    color: #ffffff;
 }
 .macabros{
     font-family: 'Honk', system-ui;
