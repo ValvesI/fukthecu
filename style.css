@@ -2,12 +2,15 @@
 
 :root{
     --vinicius: #000000;
+    --thiagoviadogordo: #ffffff;
+ 
 }
 
 
 body{
     background-color: var(--vinicius);
-    color: #ffffff;
+    color: var(--thiagoviadogordo);
+
 }
 .macabros{
     font-family: 'Honk', system-ui;
