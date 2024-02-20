@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+*/
 :root{
     --vinicius: #000000;
     --thiagoviadogordo: #ffffff;
@@ -13,5 +13,5 @@ body{
 
 }
 .macabros{
-    font-family: 'Honk', system-ui;
+    font-family: 'arial', system-ui;
 }
