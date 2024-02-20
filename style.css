@@ -14,4 +14,7 @@ body{
 }
 .macabros{
     font-family: 'arial', system-ui;
+    display: flex;
+    align-items: center;
+
 }
