@@ -55,8 +55,8 @@ body{
     position: absolute;
     animation-name: floating;
     -webkit-animation-name: floating;
-    animation-duration: 5s;
-    -webkit-animation-duration: 5s;
+    animation-duration: 15s;
+    -webkit-animation-duration: 15s;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 
