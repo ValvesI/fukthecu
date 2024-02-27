@@ -132,6 +132,6 @@ body{
 .nomes{
     display: flex;
     align-items: center;
-    height: 100vw;
+    height: 50vw;
 
 }
