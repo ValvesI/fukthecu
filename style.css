@@ -1,5 +1,6 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 :root{
     --vinicius: #000000;
     --thiagoviadogordo: #ffffff;
@@ -134,6 +135,9 @@ body{
     align-items: center;
     height: 50vw;
     flex-direction: column;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .logo-nelson{
