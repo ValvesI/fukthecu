@@ -128,3 +128,10 @@ body{
         -webkit-transform: translateY(0%);
     }
 }
+
+.nomes{
+    display: flex;
+    align-items: center;
+    height: 100vw;
+
+}
