@@ -135,3 +135,10 @@ body{
     height: 50vw;
 
 }
+
+.logo-nelson{
+    position: fixed;
+    width: 50px;
+    bottom: 0px;
+    right: 0px;
+}
