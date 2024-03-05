@@ -4,7 +4,12 @@ let anterior = document.querySelector('#texto');
 
 anterior.textContent = nomeUsuario;
 
-while(nomeUsuario == "" || nomeUsuario == null){
+while(nomeUsuario == ""){
     nomeUsuario = prompt('Da onde você vem?')
-
 };
+
+if(nomeUsuario == null){
+    anterior.textContent = 'usuário';
+} else{
+    anterior.textContent = nomeUsuario;
+}
