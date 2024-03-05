@@ -1,4 +1,4 @@
-alert('what"s up lil nigga');
+alert('what"s up');
 let nomeUsuario = prompt("");
 let anterior = document.querySelector('#texto');
 
