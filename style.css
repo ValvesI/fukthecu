@@ -4,6 +4,7 @@
 :root{
     --vinicius: #000000;
     --thiagoviadogordo: #ffffff;
+    --hill: #69FFC7;
  
 }
 
@@ -144,5 +145,5 @@ body{
 }
 
 #texto {
-    color: var(--thiagoviadogordo);
+    color: var(--hill);
 }
