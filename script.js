@@ -9,7 +9,7 @@ while(nomeUsuario == ""){
 };
 
 if(nomeUsuario == null){
-    anterior.textContent = 'usuário';
+    anterior.textContent = 'usuário de droga';
 } else{
     anterior.textContent = nomeUsuario;
 }
