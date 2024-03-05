@@ -1,2 +1,5 @@
 alert('what"s up lil nigga');
-prompt("Da onde você vem?");
+let nomeUsuario = prompt("Da onde você vem?");
+let anteriortexto = document.querySelector('texto');
+
+anteriortexto.textContent = nomeUsuario;
