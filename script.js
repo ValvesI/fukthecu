@@ -1,1 +1,1 @@
-alert('vai se foder');
+alert('what's up nigga');
