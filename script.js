@@ -1,1 +1,1 @@
-alert('what"s up lil nigga') ;
+alert('what"s up lil nigga');
