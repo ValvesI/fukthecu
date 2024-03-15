@@ -2,6 +2,7 @@ let numeroSecreto = 8;
 let numeroSecreto1 = "Oito";
 let numeroSecreto2 = "oito";
 let numeroSecreto3 = "OITO"
+console.log(numeroSecreto);
 let chute = '';
 
 while(chute == ''){
