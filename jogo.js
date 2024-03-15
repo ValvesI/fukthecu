@@ -1,5 +1,5 @@
 let numeroSecreto = Math.random()*10;
-Math.floor(numeroSecreto);
+numeroSecreto = Math.floor(numeroSecreto);
 console.log(numeroSecreto);
 let chute = '';
 
