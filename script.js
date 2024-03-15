@@ -1,5 +1,5 @@
 //alert('what"s up');
-let nomeUsuario = prompt("");
+//let nomeUsuario = prompt("");
 let anterior = document.querySelector('#texto');
 
 anterior.textContent = nomeUsuario;
