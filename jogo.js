@@ -8,7 +8,7 @@ while(chute == ''){
    chute = prompt('escolha um número de 0 ao 10');
 }
 
-if (numeroSecreto == chute || chute == numeroSecreto1 || chute == numeroSecreto2 || chute == numeroSecreto3){
+if (numeroSecreto == chute){
     alert('parabens lil nigg');
     console.log('parabens lil nigg');
 }
