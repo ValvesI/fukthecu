@@ -1,4 +1,4 @@
-alert('what"s up');
+//alert('what"s up');
 let nomeUsuario = prompt("");
 let anterior = document.querySelector('#texto');
 
