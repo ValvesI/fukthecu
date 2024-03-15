@@ -5,7 +5,7 @@ let numeroSecreto3 = "OITO"
 let chute = '';
 
 while(chute == ''){
-    prompt('escolha um número de 0 ao 10');
+   chute = prompt('escolha um número de 0 ao 10');
 }
 
 if (numeroSecreto == chute || chute == numeroSecreto1 || chute == numeroSecreto2 || chute == numeroSecreto3) {
