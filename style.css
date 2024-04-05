@@ -162,4 +162,10 @@ body{
 .botaos{
     padding: 20px;
     font-family: 'arial', system-ui;
+
+}
+
+.ativo{
+    background-color: black;
+    color: bisque;
 }
