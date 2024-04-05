@@ -151,3 +151,9 @@ body{
     border-radius: 90px;
     box-shadow: 10px 10px 1px black;
 }
+
+
+.room{
+    background-color: bisque;
+    padding: 20px 0;
+}
