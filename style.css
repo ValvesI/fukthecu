@@ -177,4 +177,9 @@ body{
 .ativa{
     display: block;
     font-size: 20px;
+    color: #b38a63;
+}
+
+#koenisseg{
+    border-radius: 35px;
 }
