@@ -169,3 +169,7 @@ body{
     background-color: black;
     color: bisque;
 }
+
+.aba-conteudo{
+    display: none;
+}
