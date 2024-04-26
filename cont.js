@@ -22,6 +22,9 @@ let tempoObjetivo2 = new Date ('2029-07-22T00:00:00');
 let tempoObjetivo3 = new Date ('2026-04-27T00:00:00');
 let tempoObjetivo4 = new Date ('2090-12-15T00:00:00');
 
+
+
+
 let tempoFinal = tempoObjetivo1 - tempoAtual;
 
 let segundos = Math.floor(tempoFinal/1000);
