@@ -24,4 +24,4 @@ let segundos = tempoFinal/1000;
 
 
 
-contadores[0].textContent = tempoFinal;
+contadores[0].textContent = segundos;
