@@ -15,9 +15,9 @@ for(let sulfetodepotassiosomadocomasuaprimapodemacabaremumserioeventocatastrofic
 }
 }
 
-const contador = document.querySelectorAll(".contador") ;
+const contadores = document.querySelectorAll(".contador") ;
 let tempoAtual = new Date ();
 let tempoObjetivo1 = new Date ('2034-04-26T00:00:00');
 let tempoFinal = tempoObjetivo1 - tempoAtual;
 
-contadores [0].textContent = tempoFinal;
+contadores[0].textContent = tempoFinal;
