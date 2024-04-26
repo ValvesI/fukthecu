@@ -22,10 +22,15 @@ let tempoObjetivo2 = new Date ('2029-07-22T00:00:00');
 let tempoObjetivo3 = new Date ('2026-04-27T00:00:00');
 let tempoObjetivo4 = new Date ('2090-12-15T00:00:00');
 
+let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
+
+for(let i=0; i < contadores.length; i++){
+contadores[i].textContent = calculaTempo(tempos[i]);
+}
 
 
-
-let tempoFinal = tempoObjetivo1 - tempoAtual;
+function calculaTempo(tempoObjetivo){
+let tempoFinal = tempoObjetivo - tempoAtual;
 
 let segundos = Math.floor(tempoFinal/1000);
 let minutos = Math.floor(segundos/60);
@@ -37,4 +42,5 @@ minutos %= 60;
 horas %= 24;
 
 
-contadores[0].textContent = dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
+return  dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
+}
